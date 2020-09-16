@@ -4,8 +4,8 @@ var connect = function()
     var conn = new sql.ConnectionPool({
        
         user: 'pdmUser',
-        password: '123@pdm',
-        server: '192.168.57.2',
+        password: 'password',
+        server: 'ip',
         database: 'PDM',
         "options": {
             "encrypt": true,
